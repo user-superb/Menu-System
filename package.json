@@ -1,0 +1,14 @@
+{
+  "name": "menu-system",
+  "version": "1.0.0",
+  "description": "En este proyecto intentare crear un menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^6.5.1"
+  }
+}
