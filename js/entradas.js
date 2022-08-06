@@ -9,5 +9,8 @@
             case 'ArrowDown':
                 descenderSeleccion(menu.selector);
                 break;
+            case 'KeyZ':
+                llamarEvento(menu.selector.ventana.opciones[menu.selector.indice].evento, menu.selector.ventana.opciones[menu.selector.indice].texto);
+                break;
         }
     });
