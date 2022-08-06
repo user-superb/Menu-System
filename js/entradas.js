@@ -4,10 +4,10 @@
         // if (key.repeat) return;
         switch (key.code){
             case 'ArrowUp':
-                ascenderSeleccion(seleccion);
+                ascenderSeleccion(menu.selector);
                 break;
             case 'ArrowDown':
-                descenderSeleccion(seleccion);
+                descenderSeleccion(menu.selector);
                 break;
         }
     });
