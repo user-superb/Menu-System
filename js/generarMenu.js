@@ -2,6 +2,11 @@
         constructor(opciones, estilos){
             this.display = generarTexto(0, 0, opciones, estilos);
             this.opciones = generarOpciones(opciones, this.display);
+    class Opcion {
+        constructor(display, texto, evento){
+            this.display = display;
+            this.texto = texto;
+            this.evento = evento;
         }
     }
 
