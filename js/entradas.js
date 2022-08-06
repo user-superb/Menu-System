@@ -1,13 +1,16 @@
     /// Prueba ///
 
     window.addEventListener('keydown',(key) => {
-        // if (key.repeat) return;
+        if (key.repeat) return;
         switch (key.code){
             case 'ArrowUp':
-                ascenderSeleccion(seleccion);
+                ascenderSeleccion(menu.selector);
                 break;
             case 'ArrowDown':
-                descenderSeleccion(seleccion);
+                descenderSeleccion(menu.selector);
+                break;
+            case 'KeyZ':
+                llamarEvento(menu.selector.ventana.opciones[menu.selector.indice].evento, menu.selector.ventana.opciones[menu.selector.indice].texto);
                 break;
         }
     });
